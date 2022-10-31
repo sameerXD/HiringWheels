@@ -43,13 +43,7 @@ public class AdminService{
 	
 	public Vehicle_subcategory addVehicleSubCategoryRepository(Vehicle_subcategory vehicleSubCategory) {
 		Long categoryId = vehicleSubCategory.getvehicleCategoryId();
-		Vehicle_category getCategory = vehicleCategoryRepository.findOneByVehicleCategoryId(categoryId);
-		
-//		if(getCategory!=null) {
-//	        throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "wrong category id firs add category");
-//		}
-//		
-		
+		Vehicle_category getCategory = vehicleCategoryRepository.findOneByVehicleCategoryId(categoryId);	
 		return vehicleSubCategoryRepository.save(vehicleSubCategory);
 	}
 	
