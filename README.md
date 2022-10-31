@@ -1,6 +1,8 @@
 # HiringWheels
 MSBA mini project using spring boot and hibernate
 
+code is in main branch
+
 ![alt text](https://github.com/sameerXD/HiringWheels/blob/main/Screenshot%20from%202022-11-01%2001-41-15.png?raw=true)
 
 ![alt text](https://github.com/sameerXD/HiringWheels/blob/main/Screenshot%20from%202022-11-01%2001-44-03.png?raw=true)
